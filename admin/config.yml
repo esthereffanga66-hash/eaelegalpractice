@@ -1,10 +1,11 @@
 backend:
   name: github
-  repo: esthereffanga66-hash/eaelegalpractice  # Your GitHub repo
+  repo: esthereffanga66-hash/eaelegalpractice
   branch: main
-  auth_scope: repo
+  auth_endpoint: https://github.com/login/oauth/authorize
+  client_id: "Ov23lieE8eqLXi6GCMTM"
 
-media_folder: "uploads"     # Where uploaded images go
+media_folder: "uploads"
 public_folder: "/uploads"
 
 collections:
